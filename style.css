@@ -1,0 +1,199 @@
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+</style>
+
+
+
+body{
+    margin: 0px;
+    
+ 
+}
+
+
+#black-banner{
+    position: relative;
+ background-color: black;
+ height: 70px;
+ background-color: black;
+ 
+}
+#logo{
+    position: relative;
+    
+    height: 70px;
+
+}
+
+#change-img {
+    background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.srch{
+    
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30px;
+    left: 900px;
+    height: 30px;
+    width: 200px;
+}
+#btn-srch{
+
+  position: absolute;
+  top: 36px;
+  left: 1120px;
+ 
+}
+
+
+
+#word-rap{
+  font-family: 'Sawarabi Mincho', serif;
+
+  font-size: 20px;
+    color: cadetblue;
+  position: absolute;
+  top: 5px;
+    left: 450px;
+
+}
+#word-trap{
+  font-family: 'Sawarabi Mincho', serif;
+
+    font-size: 20px;
+    color: cadetblue;
+  position: absolute;
+  top: 5px;
+    left: 550px;
+
+}
+#word-pop{
+  font-family: 'Sawarabi Mincho', serif;
+
+    font-size: 20px;
+    color: cadetblue;
+  position: absolute;
+  top: 5px;
+    left: 650px;
+
+}
+#word-house{
+  font-family: 'Sawarabi Mincho', serif;
+
+    font-size: 20px;
+    color: cadetblue;
+  position: absolute;
+  top: 5px;
+    left: 750px;
+
+}
+#word-topGenres{
+  font-family: 'Sawarabi Mincho', serif;
+
+    font-size: 20px;
+    color: cadetblue;
+  position: absolute;
+  top: 8px;
+    left: 175px;
+
+    
+}
+
+/* song manipulation */
+
+.img{
+  width: 80px;
+  border-radius: 80px;
+  position: relative;
+  top: -40px;
+}
+
+#songs{
+  background-color: rgba(0, 0, 0, 0.212);
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 70px;
+  left: 900px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  display: none;
+ 
+  
+}
+
+.side-write{
+  font-family: 'Sawarabi Mincho', serif;
+
+  color: white  ;
+  position: relative;
+  left: 100px;
+  top:-120px ;
+  font-size: 20px;
+}
+.song{
+  height: 150px;
+  border-bottom: 1px solid #888;
+  
+
+  
+}
+.producers{
+  color: rgb(131, 230, 255);
+  position: relative;
+  top: -180px;
+  left: 110px
+  
+}
+.play{
+  
+  font-size: 18px;
+  position: relative;
+  top: -130px
+
+}
+.track{
+  color: white;
+  position: relative;
+  left: 100px;
+  font-size: 20px;
+  display: ;
+}
+
+.tracklib{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  box-shadow: 200px;
+  border-radius: 20px;
+}
+
+.tracklib-text{
+  
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 400px ;
+  left: 370px;
+}
+.lib-text{
+  color: white;
+}
+#btn{
+  display:  none;
+  background-color: rgba(255, 255, 255, 0.425);
+  position: absolute;
+  top: 55px;
+  left: 1200px;
+}
